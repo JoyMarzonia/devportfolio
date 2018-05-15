@@ -1,0 +1,45 @@
+body {
+	background: url(../assets/images/bg.jpg) no-repeat center fixed;
+	-webkit-background-size; cover; /*targets google chrome and safari web browsers*/
+	-moz-background-size: cover; /*mozilla*/
+	-o-background-size: cover; /*opera*/
+	background-size: cover;
+	font-family: 'Bitter', serif;
+}
+
+h1 {
+	color: brown;
+	font-size: 40px;
+	font-weight: normal;
+	margin-bottom: 0;
+	font-family: 'Roboto Slab', serif;
+    
+}
+
+h2 {
+	color: black;
+	font-size: 18px;
+	margin-top: 0;
+}
+
+.bio {
+	color: black;
+	font-size: 15px;
+
+}
+
+.about {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.me {
+	height: 150px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: white;
+	margin-top: 40px;
+
+}
